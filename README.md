@@ -1,6 +1,6 @@
 # PA3EKE FlexControl Bridge
 
-**PA3EKE FlexControl Bridge** is a Windows GUI application that connects a **FlexControl** tuning knob to **Thetis** through a CAT serial COM port.
+**PA3EKE FlexControl Bridge** is a Windows GUI application that connects a **FlexControl** tuning knob to **Thetis ande SDRconsole** through a CAT serial COM port. It emulates Kenwood protocal
 
 The application allows you to select COM ports, detect the FlexControl, start a serial bridge, and control frequency tuning, step size, PTT, and VFO lock.
 
