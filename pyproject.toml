@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pa3eke-flexcontrol-bridge"
+version = "0.2.0"
+description = "FlexControl voor Thetis via TCI, voor Windows en macOS"
+requires-python = ">=3.10"
+dependencies = ["pyserial>=3.5,<4", "websocket-client>=1.8,<2", "PySide6>=6.8,<7"]
+
+[project.optional-dependencies]
+build = ["pyinstaller>=6.11,<7"]
+
+[project.gui-scripts]
+flexcontrol-thetis = "pa3eke_flexcontrol_bridge.gui:main"
+
+[tool.setuptools]
+include-package-data = false
+packages = ["pa3eke_flexcontrol_bridge"]
+package-dir = {pa3eke_flexcontrol_bridge = "."}
