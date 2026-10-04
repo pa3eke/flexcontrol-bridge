@@ -2,6 +2,10 @@
 
 Desktop-app voor Windows en macOS. De FlexControl zit via USB aan de computer met deze app; Thetis wordt via TCI over het netwerk bediend. Geen virtuele CAT-poort nodig. Bediening van RX1 / VFO A.
 
+![PA3EKE FlexControl verbonden met Thetis via TCI](assets/flexcontrol-thetis-tci.jpg)
+
+*FlexControl-Thetis actief verbonden via USB en TCI, met live frequentieweergave en bediening voor afstemstap, VFO-vergrendeling en PTT.*
+
 ## Gebruik
 
 1. Zet de **TCI-server** aan in Thetis. Controleer het ingestelde adres en de poort.
